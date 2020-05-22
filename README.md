@@ -35,11 +35,7 @@ until finished
 
 #### Flask Application Structure
 
-The file structure is broken down to ensure each .py file serves a single purpose.
-app.py - 
-auth.py - 
-bd.py - 
-baza_init.py - 
+<img width="137" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82705096-46239600-9c77-11ea-9419-0ea47a2bf1a3.PNG">
 
 ## DB Schema
 
