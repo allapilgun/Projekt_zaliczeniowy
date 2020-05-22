@@ -34,11 +34,17 @@ Use the following command to install SQLAlchemy:
 $ pip install SQLAlchemy
 ```
 
-## Flask Application Structure
+## Run web app locally
+
+First create a root folder, name it e.g. 'Projekt' and create a single app folder inside the root folder (for example, 'Web_application') and copy all fales from GitHub in it (Fig 1). 
+
+#### Fig 1. Flask Application Structure
 
 <img width="219" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82710109-5a20c500-9c82-11ea-8f06-0f82c1478121.PNG">
 
-## DB Schema
+Create 'database.db' by running 'baza_init.py' (Fig 2). 
+
+#### Fig 2. DB Schema
 
 There are four tables in the DB: 'ingredients', 'recipes', 'ingredients_to_recipes', 'users'. 
   
@@ -48,10 +54,8 @@ Schemas for the four tables can be found below.
 
 ![database_schema2](https://user-images.githubusercontent.com/43549462/82700782-2ee0aa80-9c6f-11ea-9f3f-be329e4820f3.png)
 
-## Run web app locally
 
-First create a root folder, name it e.g. 'Projekt' and create a single app folder inside the root folder (for example, 'Web_application') and copy all fales from GitHub in it (like it is shown in the Flask Application Structure). Create 'database.db' by running 'baza_init.py'.
-Then run 'app.py'.
+After creating the database, run 'app.py'.
 
 Open a web browser, and navigate to the web app at http://127.0.0.1:5000/
 
@@ -59,7 +63,8 @@ In your terminal window, press Ctrl+C to exit the web server and stop the contai
 
 ## Author
 
-* **Alla Pylhun** - email: *alla.pylhun@im.umg.edu.pl* 
+ **Alla Pylhun** 
+ email: *alla.pylhun@im.umg.edu.pl* 
 
 
 
