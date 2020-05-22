@@ -36,7 +36,7 @@ $ pip install SQLAlchemy
 
 ## Flask Application Structure
 
-<img width="137" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82705096-46239600-9c77-11ea-9419-0ea47a2bf1a3.PNG">
+<img width="219" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82710109-5a20c500-9c82-11ea-8f06-0f82c1478121.PNG">
 
 ## DB Schema
 
