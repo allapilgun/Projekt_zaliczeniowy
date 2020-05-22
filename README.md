@@ -31,9 +31,7 @@ And repeat
 until finished
 ```
 
-## Code
-
-#### Flask Application Structure
+## Flask Application Structure
 
 <img width="137" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82705096-46239600-9c77-11ea-9419-0ea47a2bf1a3.PNG">
 
