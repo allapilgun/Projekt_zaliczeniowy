@@ -42,7 +42,7 @@ First create a root folder, name it e.g. 'Projekt' and create a single app folde
 
 <img width="219" alt="Application_Structure" src="https://user-images.githubusercontent.com/43549462/82710109-5a20c500-9c82-11ea-8f06-0f82c1478121.PNG">
 
-Create 'database.db' by running 'baza_init.py' (Fig 2). 
+Create 'database.db' by running 'baza_init.py' (Fig 2). There are four tables in the DB: 'ingredients', 'recipes', 'ingredients_to_recipes', 'users'. There was used 'Many to Many Relationships'. 
 
 #### Fig 2. DB Schema
 
