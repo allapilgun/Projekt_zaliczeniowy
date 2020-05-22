@@ -33,7 +33,7 @@ until finished
 
 ## Code
 
-####Configuration file structure
+#### Configuration file structure
 
 The file structure is broken down to ensure each .py file serves a single purpose.
 app.py - 
@@ -41,7 +41,10 @@ auth.py -
 bd.py - 
 baza_init.py - 
 
-##DB Schema
+## DB Schema
+
+
+![database_schema2](https://user-images.githubusercontent.com/43549462/82700782-2ee0aa80-9c6f-11ea-9f3f-be329e4820f3.png)
 
 ## Built With
 
