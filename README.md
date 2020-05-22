@@ -7,28 +7,33 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Compatibility
+### Python Version
 
-Flask-RestPlus requires Python 2.7 or 3.4+.
-
-```
-Give examples
-```
+The latest version of Python 3 is recommend to use. But Web App supports Python 2.7 or 3.4. 
 
 ### Installation
 
-A step by step series of examples that tell you how to get a development env running
+Use the following command to install Flask:
+```
+$ pip install Flask
+```
+Jinja and Werkzeug will be installed automatically when installing Flask, but if you want to install it separately you can use the following commands: 
+```
+$ pip install Jinja2
+```
+to install Jinja;
 
-You can install Flask-Restplus with pip:
+and
 
 ```
-$ pip install flask-restplus
+$ pip install Werkzeug
 ```
+to install Werkzeug.
 
-And repeat
+Use the following command to install SQLAlchemy:
 
 ```
-until finished
+$ pip install SQLAlchemy
 ```
 
 ## Flask Application Structure
