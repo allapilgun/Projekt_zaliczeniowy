@@ -50,11 +50,16 @@ Schemas for the four tables can be found below.
 
 ## Run web app locally
 
+First create a root folder, name it e.g. 'Projekt' and create a single app folder inside the root folder (for example, 'Web_application') and copy all fales from GitHub in it (like it is shown in the Flask Application Structure). Create 'database.db' by running 'baza_init.py'.
+Then run 'app.py'.
 
+Open a web browser, and navigate to the web app at http://127.0.0.1:5000/
+
+In your terminal window, press Ctrl+C to exit the web server and stop the container.
 
 ## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alla Pylhun** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
