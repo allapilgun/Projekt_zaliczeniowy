@@ -43,6 +43,15 @@ baza_init.py -
 
 ## DB Schema
 
+There are four tables in the DB:
+  1) 'ingredients' -
+  2) 'recipes' - 
+  3) 'ingredients_to_recipes - 
+  4) 'users' - 
+  
+There was used 'Many to Many Relationships'. 
+
+Schemas for the four tables can be found below.
 
 ![database_schema2](https://user-images.githubusercontent.com/43549462/82700782-2ee0aa80-9c6f-11ea-9f3f-be329e4820f3.png)
 
