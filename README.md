@@ -59,9 +59,8 @@ In your terminal window, press Ctrl+C to exit the web server and stop the contai
 
 ## Author
 
-* **Alla Pylhun** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alla Pylhun** - email: *alla.pylhun@im.umg.edu.pl* 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 
