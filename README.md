@@ -36,7 +36,7 @@ $ pip install SQLAlchemy
 
 ## Run web app locally
 
-First create a root folder, name it e.g. 'Projekt' and create a single app folder inside the root folder (for example, 'Web_application') and copy all fales from GitHub in it (Fig 1). 
+First create a root folder, name it e.g. 'Projekt' and create a single app folder inside the root folder (for example, 'Web_application') and copy all files from GitHub to it (Fig 1). 
 
 #### Fig 1. Flask Application Structure
 
@@ -47,9 +47,7 @@ Create 'database.db' by running 'baza_init.py' (Fig 2).
 #### Fig 2. DB Schema
 
 There are four tables in the DB: 'ingredients', 'recipes', 'ingredients_to_recipes', 'users'. 
-  
 There was used 'Many to Many Relationships'. 
-
 Schemas for the four tables can be found below.
 
 ![database_schema2](https://user-images.githubusercontent.com/43549462/82700782-2ee0aa80-9c6f-11ea-9f3f-be329e4820f3.png)
@@ -65,8 +63,3 @@ In your terminal window, press Ctrl+C to exit the web server and stop the contai
 
  **Alla Pylhun** 
  email: *alla.pylhun@im.umg.edu.pl* 
-
-
-
-
-
