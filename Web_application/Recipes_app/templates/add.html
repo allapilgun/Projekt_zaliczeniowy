@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title %} Recipes searcher {% endblock %}
+{% block body %}
+
+<h2>Add a new recipe:</h2>
+
+<form method="post" action="/add_recipe">
+     <p>
+        Breakfast recipe name
+        <input type="text" name="name">
+    </p>
+    <p>
+        Preparation time [min]
+        <input type="text" name="minutes">
+    </p>
+    <p>
+        Calories [kcal]
+        <input type="text" name="calories">
+    </p>
+    <p>
+        Ingredients
+        <input type="text" name="ingredients">
+    </p>
+    <p>
+        Description
+        <input type="text" name="recipe">
+    </p>
+
+    <br>
+    <p>
+        Enter ingredient ID
+        <input type="number" name="id">
+    </p>
+    <br>
+    <input type="submit">
+</form>
+
+<h3>Ingredient ID to choose from:</h3>
+<table>
+    <tr>
+        <th>ID number</th>
+        <th>Ingredient name</th>
+    </tr>
+    {% for i in ingredients %}
+    <tr>
+        <td>{{ i.id }}</td>
+        <td>{{ i.name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+</style>
+
+{% endblock %}

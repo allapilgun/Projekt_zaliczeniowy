@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} Recipes searcher {% endblock %}
+{% block body %}
+
+<p>
+    <a href="/add_form">Add more recipes</a>
+</p>
+
+<p>
+    <a href="../../..">Back to the main page</a>
+</p>
+
+<h1>Here Are Your Recipe(s)</h1>
+<table>
+    <tr>
+        <th>Breakfast recipe</th>
+        <th>Preparation time [min]</th>
+        <th>Calories [kcal]</th>
+        <th>Ingredients</th>
+        <th>Description</th>
+    </tr>
+    {% for r in recipes|sort(attribute="name") %}
+    <tr>
+        <td>{{ r.name }}</td>
+        <td>{{ r.minutes }}</td>
+        <td>{{ r.calories }}</td>
+        <td>{{ r.ingredients }}</td>
+        <td>{{ r.recipe }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+</style>
+
+{% endblock %}

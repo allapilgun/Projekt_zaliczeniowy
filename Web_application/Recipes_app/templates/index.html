@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %} Recipes searcher {% endblock %}
+{% block body %}
+
+<h1>Find a recipe</h1>
+
+{% if id and username %}
+<h2>Hello {{ username }}!(<a href="/logout">Log Out</a>)</h2>
+{% else %}
+<h2>(<a href="/login">Log In</a>)</h2>
+{% endif %}
+
+<br>
+<h3>Say "YES" to homemade breakfast.</h3>
+<br>
+<h3>Using this application you will have more time to sit back and enjoy the most *important* meal of the day.</h3>
+<br>
+
+{% if id and username %}
+<p>
+    <a href="/select_form">Find the recipe</a>
+</p>
+{% endif %}
+
+{% endblock %}

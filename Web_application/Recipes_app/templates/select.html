@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %} Recipes searcher {% endblock %}
+{% block body %}
+
+
+<h1>It's time for cooking!</h1>
+
+<h2>What do you have in the fridge?</h2>
+
+<p>
+<form method="post" action="/select_ingredients">
+    <input type="text" name="name" placeholder='Enter ingredient...'/>
+    <br>
+    <input type="submit">
+</form>
+</p>
+
+<h3>The ingredients to choose from:</h3>
+<table>
+    <tr>
+        <th>Ingredient name</th>
+    </tr>
+    {% for i in ingredients %}
+    <tr>
+        <td>{{ i.name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+</style>
+
+{% endblock %}
