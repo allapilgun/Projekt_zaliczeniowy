@@ -61,5 +61,4 @@ In your terminal window, press Ctrl+C to exit the web server and stop the contai
 
 ## Author
 
- **Alla Pylhun** 
- email: *alla.pylhun@im.umg.edu.pl* 
+ **Alla Pylhun** - email: *alla.pylhun@im.umg.edu.pl* 
